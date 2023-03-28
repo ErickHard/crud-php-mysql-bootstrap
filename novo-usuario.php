@@ -2,7 +2,7 @@
 
 <form action="?page=salvar" method="POST">
 
-    <input type="hidden" name="acao" value="cadastrar">
+    <input type="hidden" name="acao" value="cadastrar"> 
 
     <div class="mb-3">
         <label>Nome</label>
