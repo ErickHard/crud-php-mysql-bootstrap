@@ -30,7 +30,7 @@ switch ($_REQUEST["acao"]) {
         $data_nasc = $_POST["data_nasc"];
 
 
-        $sql = "UPDATE usuarios SET
+        $sql = "UPDATE usuarios SET 
                 nome='{$nome}',
                 email='{$email}',
                 senha='{$senha}',
