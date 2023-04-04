@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -20,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="?page=page">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?page=novo">Novo Usuario</a>
@@ -55,9 +56,8 @@
                         break;
 
                     default:
-                        print "<h1>Bem-vindos!</h1>";
-                }
-                ?>
+                        print"<h1>Bem-vindos!</h1>";}?>
+
             </div>
         </div>
     </div>
