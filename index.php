@@ -40,6 +40,7 @@
         <div class="row">
             <div class="col mt-5">
                 <?php
+                
                 include("config.php");
                 switch (@$_REQUEST["page"]) {
                     case "novo":
@@ -56,7 +57,10 @@
                         break;
 
                     default:
-                        print"<h1>Bem-vindos!</h1>";}?>
+                        print"<h1>Bem-vindos!</h1>";
+
+                        }
+                        ?>
                         
             </div>
         </div>
